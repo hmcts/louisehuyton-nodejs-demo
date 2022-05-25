@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: '1.0'
+description: A Helm chart for labs-louisehuyton-nodejs-demo App
+name: labs-louisehuyton-nodejs-demo
+home: https://github.com/hmcts/labs-louisehuyton-nodejs-demo
+version: 0.0.1
+dependencies:
+  - name: nodejs
+    version: 2.4.0
+    repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
